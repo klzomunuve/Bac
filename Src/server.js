@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 import makeWASocket, { useMultiFileAuthState } from '@adiwajshing/baileys';
 import qrcode from 'qrcode-terminal';
 import makeWASocket, { useMultiFileAuthState } from '@whiskeysockets/baileys';
+import makeWASocket, { useMultiFileAuthState } from "@whiskeysockets/baileys";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
